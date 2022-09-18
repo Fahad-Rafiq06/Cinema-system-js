@@ -1,0 +1,51 @@
+body{
+    font-family: monospace;
+}
+#loginMain {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 39%;
+    margin-right: 13%;
+    height: 350px;
+    margin-top: 128px;
+    width: 24%;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    margin: 6% 65px 0% 65px;
+    line-height: 44px;
+    position: relative;
+    bottom: 30px;
+    font-size: 18px;
+    box-shadow: 10px 8px 10px rgb(92 118 112);    
+}
+
+h1.mainheading {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: xxx-large;
+    font-family: monospace;
+}
+
+input#loginbtn {
+    width: 42%;
+    height: 46px;
+    font-size: 20px;
+    box-shadow: 10px 15px 10px rgb(92, 118, 112);
+    margin-left: 28%;
+}
+input#loginbtn:hover{
+    cursor: pointer;
+    background: rgb(10, 194, 4);
+    color: rgb(253, 253, 253);
+    font-size: 25px;
+    transition: .5s;
+    box-shadow: none;
+
+}
