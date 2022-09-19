@@ -49,3 +49,13 @@ input#loginbtn:hover{
     box-shadow: none;
 
 }
+
+a input#backtoup {
+    width: 34%;
+    height: 40px;
+    font-size: 18px;
+    box-shadow: 10px 15px 10px rgb(92, 118, 112);
+    margin-left: 32%;
+    margin-top: 5%;
+    cursor: pointer;
+}
