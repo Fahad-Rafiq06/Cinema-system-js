@@ -47,15 +47,28 @@ input#loginbtn:hover{
     font-size: 25px;
     transition: .5s;
     box-shadow: none;
+    
 
 }
 
 a input#backtoup {
-    width: 34%;
-    height: 40px;
-    font-size: 18px;
+    width: 25%;
+    height: 35px;
+    font-size: 17px;
     box-shadow: 10px 15px 10px rgb(92, 118, 112);
-    margin-left: 32%;
+    margin-left: 36%;
     margin-top: 5%;
     cursor: pointer;
+}
+
+a input#backtoup:hover{
+    cursor: pointer;
+    background: rgb(10, 194, 4);
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    transition: .5s;
+    box-shadow: none;
+    border-radius: 20px;
+    /* border: none; */
+
 }
